@@ -1,0 +1,18 @@
+How do the diagrams help you visualize the branch structure?
+
+Vc pode encontrar o pai de cada mudanca ate saber em quais IDs 
+houveram separacoes por branches e apartir dai entender o que 
+pode nao estar incluido em cada branch
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Vc combina funcionalidades novas que podem estar sendo trabalhadas em diferentes branches. ou bug fixing
+
+Git log --graph 
+git branch
+git log (mostra os ids da branch ou os commits)
+git diff (mostra a diferenca dos commits ou de branches tbm)
+git commit (cria um commit id e guarda a estrutura de acordo com o arquivo commitado, os arquivos devem vir da stagin area)
+git merge (faz se dentro da branche que quer alterar e pode combinar duas branches, caso haja conflito ele escreve no arquivo a parte conflitande, eh necessario resolver commitar e o merge sera feito)
+git init (inicia um diretorio para ter o tracking das mudancas pelos commits
+git add (adiciona um arquivo a staging area)
