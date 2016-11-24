@@ -8,6 +8,12 @@ What is the result of merging two branches together? Why do we represent it in t
 
 Vc combina funcionalidades novas que podem estar sendo trabalhadas em diferentes branches. ou bug fixing
 
+Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+Por que vc tem controle sobre o que vai querer publicar no caso de push e no caso de pull pois vc vai ter controle sobre 
+o que esta trabalhando localmente.
+
+Comandos:
 Git log --graph 
 git branch
 git log (mostra os ids da branch ou os commits)
@@ -16,3 +22,5 @@ git commit (cria um commit id e guarda a estrutura de acordo com o arquivo commi
 git merge (faz se dentro da branche que quer alterar e pode combinar duas branches, caso haja conflito ele escreve no arquivo a parte conflitande, eh necessario resolver commitar e o merge sera feito)
 git init (inicia um diretorio para ter o tracking das mudancas pelos commits
 git add (adiciona um arquivo a staging area)
+git pull origin master (baixa para o github o novo commit)
+git push origin master (envia para o github o novo commit)
