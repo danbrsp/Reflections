@@ -1,0 +1,2 @@
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+To keep a organized tracking of all changes in all files in a separated way

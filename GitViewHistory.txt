@@ -1,0 +1,2 @@
+How can you use the commands git log and git diff to view the history of files?
+Git log to see all changes and git diff to compare the lines of codes that were add/modified or deleted
